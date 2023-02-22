@@ -23,10 +23,11 @@ namespace File_Encryption_WPF;
 
 public partial class MainWindow : Window
 {
-    string ivAsBase64;
-    string keyAsBase64;
-    string encryptedTextAsBase64;
-    int _keySize;
+    private string ivAsBase64;
+    private string keyAsBase64;
+    private string encryptedTextAsBase64;
+    private int _keySize;
+
     private CancellationTokenSource? _cts;
     public string FilePath { get; set; } = null!;
 

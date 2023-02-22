@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
         <Grid>
             <DockPanel>
-
+                <Label VerticalAlignment="Center"> Password Size :</Label>
                 <RadioButton x:Name="rbtn128" Content="16 characters"  Margin="5" Checked="rbtnKeySize_Checked"/>
                 <RadioButton x:Name="rbtn192" Content="24 characters"  Margin="5" Checked="rbtnKeySize_Checked"/>
                 <RadioButton x:Name="rbtn256" Content="32 characters"  Margin="5" Checked="rbtnKeySize_Checked"/>
