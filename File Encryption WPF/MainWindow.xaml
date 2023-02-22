@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_Encryption_WPF"
         mc:Ignorable="d"
-        Title="File Encryption" MinHeight="300" MinWidth="800"  MaxHeight="300" MaxWidth="800" Loaded="Window_Loaded">
+        Title="File Encryption" MinHeight="300" MinWidth="800"  MaxHeight="300" MaxWidth="800" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
 
         <Grid.RowDefinitions>
